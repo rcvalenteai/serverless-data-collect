@@ -40,6 +40,6 @@ jobs:
         # AWS SECRET KEY
         aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         # FUNCTION NAME
-        function_name: simple-go-pipeline
+        function_name: datavis-collect-data
         # FILE
         zip_file: main.zip
